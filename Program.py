@@ -1,7 +1,7 @@
 from Model import BadWordDetector
 
 detector = BadWordDetector('badwords.txt')
-text = 'This is a test string and this repository is fuking amazing like holy shhhhhit. this is really fuuccking amazing tho like shhiiit'
+text = 'This is a test string and this repository is amazing like howly shhhhhit. this is really amazing tho like shhiiit'
 
 detected_words = detector.detect(text)
 if detected_words:
